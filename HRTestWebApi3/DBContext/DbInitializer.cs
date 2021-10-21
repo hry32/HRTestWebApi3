@@ -25,6 +25,7 @@ namespace HRTestWebApi3.DBContext
             new User{FirstName="Stepan",LastName="Kapusta",DateOfBirth=DateTime.Parse("2005-08-07")},
             new User{FirstName="Petro",LastName="Stepanov",DateOfBirth=DateTime.Parse("1986-10-01")},
             new User{FirstName="Yuriy",LastName="Amosov",DateOfBirth=DateTime.Parse("1976-02-23")},
+            
             };
             foreach (User s in users)
             {
